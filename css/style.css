@@ -1,0 +1,48 @@
+/*
+@font-face{
+font-family:Roboto;
+src: url('media/font/roboto/Roboto-Regular.ttf');
+}
+*/
+
+html, body{
+    background-color: white;
+}
+
+.login-container{
+    margin: 10;
+    position: relative;
+}
+
+.btn.btn-block{
+    background-color:#009688;
+    color: aliceblue;
+
+}
+
+.btn-block#signup{
+    background-color: darkgray;
+    color: aliceblue;
+}
+
+.form-control{
+    margin-top: 10;
+    widows: 100%;
+}
+
+.forgot-password{
+    margin-top: 10dp;
+    font-size: 10px;
+    color: gray;
+}
+
+.a{
+    text-decoration: underline;
+}
+
+.button-container{
+    position: relative;
+    margin-top: 10;
+    align-content: center;
+}
+
