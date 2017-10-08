@@ -23,6 +23,10 @@
 
 }
 
+.panel {
+  opacity: 50%;
+}
+
 .btn-book {
 	background-color:  #009688;
 	color: white;
@@ -31,6 +35,12 @@
 .btn-cancel {
 	background-color:  #00675b;
 	color: white;
+}
+
+body {
+  background-image: url("map-with-route.png");
+  background-size: 100% 41%;
+  background-attachment: fixed;
 }
 </style>
 
@@ -158,9 +168,8 @@ $( document ).ready(function() {
 </head>
 <body>
 
-<div class="container">
-  <h1>My First Bootstrap Page</h1>
-  <p>This is some text.</p> 
+<div class="map">
+  
 </div>
 
 <div class="row force-to-bottom text-center">
