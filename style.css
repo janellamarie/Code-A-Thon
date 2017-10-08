@@ -1,0 +1,77 @@
+.jumbotron{
+    height: 100px;
+    background-image: url("map-with-route.png");
+    background-size: cover;
+}
+
+.background{
+    height: 150px;
+    width:100%;
+    background-size: 100% 100%;
+    background-image: url("map-with-route.png");
+    margin-bottom: 20px;
+}
+
+
+.row {
+    margin: 0;
+    padding: 10px;
+    height: 100%;
+}
+
+.rowinfo{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    padding:100px;
+    margin:0;
+    height: 100%
+    width: 100%;
+}
+
+.place{
+    height: 40%
+    width: 100%;
+}
+
+.condition{
+    position: absolute;
+    background: #e7e7e7;
+    width: 100%;
+    height: 13%;
+    bottom: 0%;
+}
+
+.button{
+    width: 49%;
+    height: 100%;
+    background: 
+}
+
+#acceptBtn{
+    background: #009688;
+}
+
+#declineBtn{
+    background: #f44336;
+}
+
+#profpic{
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+    height: 25%;
+    width: 25%;
+}
+
+h6{
+    text-align: center;
+}
+h3{
+     text-align: center;
+}
+h4{
+     text-align: center;
+}
